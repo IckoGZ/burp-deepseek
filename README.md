@@ -28,9 +28,27 @@ A quick and dirty (and a little shitty) burp extension that uses cheap deepseek 
 ## How It Works
 
 1. **Select a request/response** in Burp Suite (e.g., in **Proxy** or **Repeater**).  
-2. **Right-click** and choose **_Send to DeepSeek_** or **_Send to DeepSeek (custom prompt)_**.  
+2. **Right-click** and choose **_Send to DeepSeek_** or **_Send to DeepSeek (custom prompt)_**.
+
+![image](https://github.com/user-attachments/assets/4844b45f-003a-43ce-a65e-e4c0d47071b8)
+
+
 3. The extension sends the HTTP data to the DeepSeek API for analysis.  
 4. Once the API responds, the extension creates a “DeepSeek Analysis” issue in Burp, containing the AI-generated insights.
+
+
+##Configure 
+
+A prompt will appear when it loads for first time 
+
+
+After that you can just click hereto reconfigure
+![image](https://github.com/user-attachments/assets/af70e918-b636-4449-be81-c460bd118752)
+
+
+Those are the options
+![image](https://github.com/user-attachments/assets/6e54c6b8-59d8-426f-94e0-4e6b7901fef7)
+
 
 ---
 
