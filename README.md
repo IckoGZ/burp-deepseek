@@ -1,6 +1,8 @@
 # burp-deepseek
 A quick and dirty (and a little shitty) burp extension that uses cheap deepseek api to send request and response and maybe found something interesting.
 
+THIS IS IN BETA-MODE. Nothing its going to break on your project (I think) but maybe you found so much use-cases that are not working right now
+
 # DeepSeek Burp Extension
 
 **DeepSeek Burp Extension** is a beta-stage plugin for [PortSwigger Burp Suite](https://portswigger.net/burp) that sends HTTP requests/responses to the [DeepSeek API](https://api.deepseek.com) for AI-driven security analysis. This extension helps bug hunters and security researchers identify potential vulnerabilities, suspicious endpoints, and sensitive data exposures.
