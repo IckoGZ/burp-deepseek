@@ -67,7 +67,7 @@ Those are the options
 3. Add a new extension:
    - **Extension Type**: Python  
    - **Location**: Select the `burp_deepseek.py` file (or similar) from this repository.  
-4. Go to the **DeepSeek Analyzer** tab in Burp to configure your **API Key** and default prompt.  
+4. Go to the **DeepSeek Analyzer** tab in Burp to configure your **API Key** and default prompt.  (Create here the API key https://platform.deepseek.com/api_keys)
 5. (Optional) Enable **Debug Mode** if you want verbose logs in the Extender console.
 
 ---
@@ -81,9 +81,32 @@ Those are the options
 
 ---
 
+
+## Costs
+
+Obviously it depends how much you use :D
+Also, the longer the request/response you send to the api, more is going to cost, but in my benchmakrs and tests, 10 requests are 1 cent, so.
+1.000 analyzed requests are going to cost about 1 €
+
+
+![image](https://github.com/user-attachments/assets/bf03ceb6-6048-4c8f-bf5f-6b2ae475d679)
+
+But this is an estimation. Just set up the billing alerts, and top the api with a controlled budget
+
+
+
+---
+
 ## Contributing
 
 We welcome any contributions or pull requests to improve functionality, fix bugs, or add new features. Feel free to open an issue or submit a PR if you have ideas or encounter any problems.
+
+---
+
+## Modifications
+
+You can just change the endpoints if you want to use chatGPT or another LLM. It is in standard mode.
+Also, you can change the default system prompt if you find other system prompot that works better. 
 
 ---
 
@@ -94,6 +117,12 @@ This project is released under the [MIT License](LICENSE).
 ---
 
 **Enjoy bug hunting with DeepSeek!**
+
+
+#Issues
+Sometimes takes a loooong time to get the response. Don't expect real time
+Sometimes it breaks the parser it the input is too long.
+Sometimes just it doesn't work
 
 
 
